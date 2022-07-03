@@ -26,7 +26,7 @@ html {
 
 body {
     font-family: var(--font-primary);
-    position: relative;
+    /* position: relative; */
     width: 100vw;
     background: var(--light-gray);
 
@@ -37,9 +37,10 @@ body {
 }
 
 .card {
-    width: 23%;
-    min-width: 10rem;
-    background: var(--white);
+    width: 37rem;
+    min-height: 25rem;
+    background-color: beige;
+    /* background: var(--white); */
     padding: 1.9rem 1.9rem;
     border-radius: 2rem;
 
@@ -52,6 +53,9 @@ body {
 
 .card__img {
     width: 100%;
+    height: 20rem;
+    /*ELIMINAR*/
+    background-color: blueviolet;
     border-radius: 0.8rem;
 }
 
