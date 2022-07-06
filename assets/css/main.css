@@ -70,5 +70,6 @@ body {
 @media screen and (max-width: 375px) {
     .card {
         max-width: 37.5rem;
+
     }
 }
